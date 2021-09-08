@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height: 100vh;
+}
+.item-container{
+    margin-top: 3%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.card{
+    text-align: center;
+    font-family: 'Damion', cursive;
+    padding: 5px;
+    width:300px;
+    border-radius: 5px;
+    padding:1em;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    background: white;
+}
+img{
+    height:300px;
+    width:auto;
+}
+
+h4 strong{
+    color:green;
+}
+.view{
+    text-decoration: none;
+}
